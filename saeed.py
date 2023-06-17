@@ -12,7 +12,7 @@ try:
 	import concurrent.futures
 except ImportError:
 	print('\n [×] Futures module not installed!...\n')
-	os.system('pip install futures'n)
+	os.system('pip install futures')
     
 try:
 	import bs4
