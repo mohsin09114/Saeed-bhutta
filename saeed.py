@@ -6,19 +6,19 @@ try:
 	import requests
 except ImportError:
 	print('\n [×] requests module not installed!...\n')
-	os.system('pip install requests')
+	os.system("pip install requests")
 
 try:
 	import concurrent.futures
 except ImportError:
 	print('\n [×] Futures module not installed!...\n')
-	os.system('pip install futures'n")
+	os.system("pip install futures")
     
 try:
 	import bs4
 except ImportError:
 	print('\n [×] Bs4 module not installed!...\n')
-	os.system('pip install bs4')
+	os.system("pip install bs4")
     
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform
 from bs4 import BeautifulSoup as sop
